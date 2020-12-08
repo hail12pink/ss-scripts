@@ -6,6 +6,10 @@ while wait() do
           d.Purpose = math.random(0, 2)
           d.TriggerDistance = 0.01
           d.ConversationDistance = 0.01
+          spawn(function()
+              d.Tone = math.random(0, 2)
+              d.Purpose = math.random(0, 2)
+          end)
     end))
   end
 end
